@@ -31,16 +31,16 @@ With the following features:
   * http://getskeleton.com/
   * https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
 * [x] Create Header
-* [ ] Create form
-  * [ ] Name
-  * [ ] Content
-  * [ ] u-full-width to both inputs
-* [ ] Listen for form submit
-* [ ] Hide the form
-* [ ] Show loading spinner
-* [ ] Get data from form and log it
-* [ ] Get user input on the Client
-* [ ] Hide/Show elements on the client
+* [x] Create form
+  * [x] Name
+  * [x] Content
+  * [x] u-full-width to both inputs
+* [x] Listen for form submit
+* [x] Hide the form
+* [x] Show loading spinner
+* [x] Get data from form and log it
+* [x] Get user input on the Client
+* [x] Hide/Show elements on the client
 
 ## Back-end
 
