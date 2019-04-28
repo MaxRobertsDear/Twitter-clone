@@ -44,28 +44,28 @@ With the following features:
 
 ## Back-end
 
-* [ ] Create server folder
-* [ ] npm init -y
-* [ ] npm install express morgan
-* [ ] Setup index.js
-* [ ] Add GET / route
-* [ ] Add POST /mews route
-  * [ ] log out req.body
+* [x] Create server folder
+* [x] npm init -y
+* [x] npm install express morgan
+* [x] Setup index.js
+* [x] Add GET / route
+* [x] Add POST /mews route
+  * [x] log out req.body
 
 ## Front-end
 
-* [ ] fetch POST /mews with form data
-* [ ] See the CORS error and revel in this moment
-* [ ] Send user input from the client with fetch to the server
+* [x] fetch POST /mews with form data
+* [x] See the CORS error and revel in this moment
+* [x] Send user input from the client with fetch to the server
 
 ## Back-end
 
-* [ ] npm install cors
-* [ ] Make sure the server is recieving the data
-* [ ] Add JSON body parser middleware
-* [ ] Validate name and content
-  * [ ] Must be a string
-  * [ ] Cannot be empty
+* [x] npm install cors
+* [x] Make sure the server is receiving the data
+* [x] Add JSON body parser middleware
+* [x] Validate name and content
+  * [x] Must be a string
+  * [x] Cannot be empty
 * [ ] If not valid
   * [ ] Error code 422
   * [ ] Invalid mew, must contain name and content

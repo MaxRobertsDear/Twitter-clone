@@ -4,6 +4,8 @@ console.log('Hello Wolrd!');
 const form = document.querySelector('form');
 // to hide the loading gif when not required ..
 const loadingElement = document.querySelector('.loading');
+const API_URL = 'http://localhost:5000/mews';
+
 
 loadingElement.style.display = "none";
 // listen for when the user clicks submit
@@ -14,7 +16,7 @@ form.addEventListener('submit', (event) => {
   // formData is built into the browser and works by
   // passing in a reference to the form (we have created
   // a form variable on line 4)
-  const formData = new FormData()
+  const formData = new FormData(form)
   const name = formData.get('name');
   const content = formData.get('content');
 
@@ -23,7 +25,15 @@ form.addEventListener('submit', (event) => {
     content
   };
 
-  console.log('mew');
+  
   form.style.display = 'none';
   loadingElement.style.display = '';
-})  
+
+  fetch(API_URL, {
+    method: 'POST', 
+    body: JSON.stringify(mew), 
+    headers: {
+      'content-type': 'application/json'
+    }
+  })
+});
