@@ -66,9 +66,9 @@ With the following features:
 * [x] Validate name and content
   * [x] Must be a string
   * [x] Cannot be empty
-* [ ] If not valid
-  * [ ] Error code 422
-  * [ ] Invalid mew, must contain name and content
+* [x] If not valid
+  * [x] Error code 422
+  * [x] Invalid mew, must contain name and content
 * [ ] Setup DB Connection
   * [ ] npm install monk
   * [ ] connect to db

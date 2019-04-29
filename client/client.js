@@ -2,11 +2,11 @@ console.log('Hello Wolrd!');
 
 // reference to the form  
 const form = document.querySelector('form');
-// to hide the loading gif when not required ..
+
 const loadingElement = document.querySelector('.loading');
 const API_URL = 'http://localhost:5000/mews';
 
-
+// to hide the loading gif when not required ..
 loadingElement.style.display = "none";
 // listen for when the user clicks submit
 form.addEventListener('submit', (event) => {
